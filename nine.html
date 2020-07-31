@@ -61,59 +61,65 @@
           </aside>
           <main class="col-sm-9">
             <ul class="points">
-              <li>Final Project Prep</li>
-              <li>Audio &amp; Video Files</li>
-              <li>In-depth Peer Coding</li>
+              <li>Final Project Preparation</li>
+              <li>GitHub - Let's push our site!</li>
+              <li>Create SSH Key & Link Git with GitHub</li>
+              <li>Git Commands</li>
+                <ul>
+                  <li>git init</li>
+                  <li>git remote add origin</li>
+                  <li>git commit -m " "</li>
+                  <li>git push -u origin branch</li>
+                </ul>
+              <li>Push Up Final Project to GitHub</li>
+              <li>Work on Final</li>
             </ul>
           </main>
         </div><!-- end Concepts -->
 
-        <div class="row section"><!-- Final -->
+        <div class="row section"><!-- SSH Key & Link Git with GitHub  -->
           <aside class="col-sm-3">
-              <h2>Final</h2>
+            <h2>SSH Key & Link Git with GitHub</h2>
           </aside>
           <main class="col-md-9">
             <ul class="points">
-              <li>Create your Wireframes</li>
-              <li>If you need help or inspiration, ask!</li>
-              <li>Also: check out <a href="https://dribbble.com/" target="_blank">Dribbble</a></li>
+              <li>Generate <a href="https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" target="_blank">SSH Key</a></li>
+              <li>Add SSH Key to <a href="https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account" target="_blank">GitHub</a></li>
+              <li>May need to set up git username and password <a href="https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup" target="_blank">link here</a></li>
+                <ul>
+                  <li>$ git config --global user.name "John Doe"</li>
+                  <li>$ git config --global user.email johndoe@example.com</li>
+                </ul>
             </ul>
           </main>
-        </div><!-- end Final -->
+        </div><!-- end SSH Key & Link Git with GitHub -->
 
-        <div class="row section"><!-- Audio &amp; Video -->
+        <div class="row section"><!-- Push to GitHub -->
           <aside class="col-sm-3">
-            <h2>Audio &amp; Video</h2>
+              <h2>Now that SSH Key is Set Up, Let's Push Up Our Project!</h2>
           </aside>
-          <main class="col-sm-9">
+          <main class="col-md-9">
             <ul class="points">
-              <li>Click <a href="http://www.w3schools.com/html/html5_audio.asp" target="_blank" >here</a> to learn about audio</li>
-              <li>
-                <audio controls>
-                  <source src="Lightsaber.wav" type="audio/wav">
-                </audio>
-              </li>
-              <li>Click <a href="http://www.w3schools.com/html/html5_video.asp"  target="_blank">here</a> to learn about embedded video</li>
-              <video width="400" height="400" controls>
-                <source src="example.mov" type="video/mp4">
-              </video>
-              <li>Or, you can use <a href="https://www.youtube.com/">YouTube</a> to embed them!</li>
+              <li>Initial Git Commands - Open your Git terminal</li>
+                <ul>
+                  <li>git init - initializes project</li>
+                  <li>git remote add origin “paste SSH Key”</li>
+                  <li>***git remote -v*** (optional) - checks our fetch and pull</li>
+                  <li>git add . - adds ALL of our code</li>
+                  <li>***git status*** (optional) - allows us to see where we are</li>
+                  <li>git commit -m “first commit”</li>
+                  <li>git push -u origin master - -u stands for upstream, only use for first commit! Master is the branch we are on</li>
+                  <li>Ask questions if you have them! We will be walking around to help</li>
+                </ul>
+              <li>Additional Git Commits - Commit often</li>
+                <ul>
+                  <li>git add . - adds all of our code</li>
+                  <li>git commit -m “commit message” - this message will be specific to the changes you made in your code</li>
+                  <li>git push</li>
+                </ul>
             </ul>
           </main>
-        </div><!-- end Audio &amp; Video -->
-
-        <div class="row section"><!-- Coding Together -->
-          <aside class="col-sm-3">
-            <h2>Coding Together</h2>
-          </aside>
-          <main class="col-sm-9">
-            <ul class="points">
-              <li>Create our wireframe for the About Page</li>
-              <li>Finish coding our About Page</li>
-              <li>Start (or continue) your Final Project</li>
-            </ul>
-          </main>
-        </div><!-- end Coding Together -->
+        </div><!-- end Push to GitHub -->
 
     </div>
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
